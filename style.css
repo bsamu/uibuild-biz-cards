@@ -104,4 +104,8 @@ p {
     grid-template-rows: 416px;
     width: 290px;
   }
+
+  div.card {
+    margin-top: 62px;
+  }
 }
