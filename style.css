@@ -99,13 +99,15 @@ p {
 }
 
 @media screen and (max-width: 995px) {
+  div#root {
+    height: auto;
+  }
+
   div.container {
     grid-template-columns: 290px;
     grid-template-rows: 416px;
     width: 290px;
-  }
-
-  div.card {
     margin-top: 62px;
+    margin-bottom: 62px;
   }
 }
